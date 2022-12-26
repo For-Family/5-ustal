@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- <section class="main container">
+        <div class="main-sidebar">
+            Sidebar
+        </div>
+        <div class="main-content">
+            Content
+        </div>
+        <div class="main-addsidebar">
+            Add-Sidebar
+        </div>
+    </section> -->
+    <div class="centered">
+        <form action="index.php" target="_blank" method="get">
+            <label for="ismid">VVedite imya</label>
+            <input id="ismid" name="email" placeholder="dinay quy" type="text" required>
+            <!-- <input type="number"> -->
+            <br>
+            <label>
+                Phone number
+            <input name="phone-number" type="tel" disabled>
+            </label>
+            <br>
+            <label>
+                email
+            <input name="email" type="email">
+            </label>
+            <br>
+            <label>
+                birth date
+            <input name="birth-date" type="datetime-local">
+            </label>
+            <br>
+            <label>
+                Time of registration
+            <input name="Time of registration" type="time">
+            </label>
+            <br>
+            <label>
+                Rasimingiz
+            <input name="Photo of yourself" type="file">
+            </label>
+            <br>
+            <textarea name="uzun-text" cols="30" rows="10"></textarea>
+            <label>
+                <br>
+                <select required>
+                    <option disabled selected> Select region </option>
+                    <option value="12">Toshkent</option>
+                    <option value="11">Region</option>
+                    <option value="10">fargona</option>
+                    <option value="9">qashqa</option>
+                    <option value="13">navoi</option>
+                </select>
+
+                <datalist id="data">
+                    <option>Hello</option>
+                    <option>UZB</option>
+                    <option>Hello</option>
+                </datalist>
+
+
+                qidiruv uchun 
+            <input list="data" name="poiskovik" type="search">
+            </label>
+            <button type="submit">
+                Submit
+            </button>
+            <button type="reset">
+                Reset
+            </button>
+        </form>
+    </div>
+</body>
+</html>

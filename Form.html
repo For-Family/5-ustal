@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section class="registration container">
+        <form autocomplete="off" class="registration-form" method="get" >
+            <h2 class="registration-title">Registration Form</h2>
+        <div class="form-field">
+            <label class="form-label" for="ism">Ismingiz:</label>
+            <input class="form-input" id="ism" name="ism" minlength="3" maxlength="12" type="text" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-label" for="surname">Familiyangiz:</label>
+            <input class="form-input" id="surname" name="surname" minlength="3" maxlength="12" type="text" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-input" id="email" name="email" type="email" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-label" for="password">Password:</label>
+            <input class="form-input" id="password" name="password" minlength="3" maxlength="12" type="password" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-label" for="confign-password">Confign your Password:</label>
+            <input class="form-input" id="confign-password" name="ism" minlength="3" maxlength="12" type="password" required>
+        </div>
+
+        <div class="form-field">
+            <label class="form-label" for="lang">Language settings:</label>
+            <select class="form-select" id="lang" name="lang" required>
+                <option value="uz_uz">Uzbekskiy</option>
+                <option value="en_eng">ENGLISH</option>
+                <option value="ru_ru">RUSSIAN</option>
+            </select>
+        </div>
+        <div class="class-btn">
+            <button class="form-submit" type="submit">Register</button>
+        </div>
+
+        </form>
+    </section>
+</body>
+</html>
